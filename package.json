@@ -1,0 +1,49 @@
+{
+  "name": "brokeaf",
+  "version": "1.0.0",
+  "description": "BrokeAndFocused (BrokeAF) - Personal Finance Tracker for Students",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "start": "npm run backend:start",
+    "backend:dev": "cd backend && npm run dev",
+    "backend:start": "cd backend && npm start",
+    "frontend:dev": "cd frontend/brokeaf-frontend && pnpm run dev",
+    "frontend:build": "cd frontend/brokeaf-frontend && pnpm run build",
+    "frontend:preview": "cd frontend/brokeaf-frontend && pnpm run preview",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend/brokeaf-frontend && pnpm install",
+    "build": "npm run frontend:build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/brokeaf.git"
+  },
+  "keywords": [
+    "finance",
+    "budgeting",
+    "student",
+    "expense-tracker",
+    "ai",
+    "personal-finance",
+    "money-management",
+    "savings",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/brokeaf/issues"
+  },
+  "homepage": "https://github.com/yourusername/brokeaf#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
+
