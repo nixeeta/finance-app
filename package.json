@@ -8,16 +8,16 @@
     "start": "npm run backend:start",
     "backend:dev": "cd backend && npm run dev",
     "backend:start": "cd backend && npm start",
-    "frontend:dev": "cd frontend/brokeaf-frontend && pnpm run dev",
-    "frontend:build": "cd frontend/brokeaf-frontend && pnpm run build",
-    "frontend:preview": "cd frontend/brokeaf-frontend && pnpm run preview",
-    "install:all": "npm install && cd backend && npm install && cd ../frontend/brokeaf-frontend && pnpm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:preview": "cd frontend && npm run preview",
+    "install:all": "npm install && cd backend && npm install && cd frontend && npm install",
     "build": "npm run frontend:build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/brokeaf.git"
+    "url": "git+https://github.com/nixeeta/finance-app.git"
   },
   "keywords": [
     "finance",
@@ -32,12 +32,12 @@
     "nodejs",
     "mongodb"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Finance App Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourusername/brokeaf/issues"
+    "url": "https://github.com/nixeeta/finance-app/issues"
   },
-  "homepage": "https://github.com/yourusername/brokeaf#readme",
+  "homepage": "https://github.com/nixeeta/finance-app#readme",
   "devDependencies": {
     "concurrently": "^8.2.2"
   },
